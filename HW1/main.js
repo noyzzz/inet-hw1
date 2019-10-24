@@ -13,10 +13,10 @@ function check_point_in_polygon(point, feature_array){
       let turf_point = turf.point([point.lat,point.long]);
         let is_point_in_polygon = turf.booleanPointInPolygon(turf_point, turf.polygon(this_polygon));
         if(is_point_in_polygon){
-          console.log( "this is aaaaa" + aa);
-          console.log(this_polygon);
+          //console.log( "this is aaaaa" + aa);
+          //console.log(this_polygon);
           selected_regions.push(feature);
-          console.log(this_polygon + " printed!!")
+          //console.log(this_polygon + " printed!!")
         }
         
     });
