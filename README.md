@@ -6,6 +6,9 @@
   * Deploying Server on heroku
   * Load testing
 
+ [**Live App**](https://safe-crag-20124.herokuapp.com)
+
+
 Load testing results:
 - Elapsed time: 10 seconds
 - Scenarios launched:  10
