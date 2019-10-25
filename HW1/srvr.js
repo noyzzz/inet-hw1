@@ -27,5 +27,5 @@ app.listen(port, () => console.log(`Example app listening on port ${port}!`));
 app.put("/", function(req, res) {
   let body = req.body;
   console.log(body);
-  res.send(features);
+  res.send(body);
 });
