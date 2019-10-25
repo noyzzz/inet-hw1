@@ -2,7 +2,7 @@ import { check_point_in_polygon, read_polygons_from_file, polygon_name_extractor
 import bodyParser from "body-parser";
 import express from "express";
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 5000;
 let features = read_polygons_from_file(); // should be changed to put request
 console.log(features);
 app.use(
